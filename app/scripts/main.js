@@ -196,9 +196,9 @@ $(document).ready(function () {
      */
     // cargando la tabla con dataTable
     var miTabla = $('#miTabla').DataTable({
-        //dom: 'T<"clear">lfrtip',
-        "sDom": 'T<"clear">Clfrtip',
-        tableTools: {
+        "sDom": 'T<"clear">OSfrtip',
+        "oTableTools": {
+            "sRowSelect": "multi",
             "sSwfPath": "swf/copy_csv_xls_pdf.swf",
             "aButtons": [
                 {
@@ -211,10 +211,9 @@ $(document).ready(function () {
                     "sExtends": "pdf",
                     "sButtonText": "Copiar en PDF",
                     "sTitle": "Mis marcadores",
-                   // "bShowAll": true,
-                   "bSelectedOnly": true,
-                    "bFooter": false,
-                    "bHeader": false,
+                    // "bShowAll": true,
+                    "bSelectedOnly": true,
+                    "bHeader": true,
                     "sPdfMessage": "Los marcadores seleccionados.",
                     "sPdfOrientation": "landscape",
                     "mColumns": [0, 1],
@@ -330,7 +329,7 @@ $(document).ready(function () {
     // Apply the search
     miTabla.columns().every(function () {
         var that = this;
-        $('input', this.header()).on('keyup change', function () {
+        $('input', this.footer()).on('keyup change', function () {
             that
                     .search(this.value)
                     .draw();

@@ -41,8 +41,12 @@ if (!isset($_SESSION['usuario']))
                 <div class="col-md-12">
                     <table id="miTabla"  class=" hover cell-border" cellspacing="0" width="100%">
                         <thead>
-                        <th><input type="text" placeholder="Buscar en URL del Marcador"></th>
-                        <th><input type="text" placeholder="Buscar en Concepto del Marcador"></th>
+                        <th>
+                            URL del Marcador
+                        </th>
+                        <th>
+                            Concepto del Marcador
+                        </th>
                         <th>HREF del Marcador</th>
                         <th>uso del Marcador</th>
                         <th>Editar</th>
@@ -51,12 +55,9 @@ if (!isset($_SESSION['usuario']))
                         <tbody>
                         </tbody>
                         <tfoot>
-                        <th>
-                            URL del Marcador
-                        </th>
-                        <th>
-                            Concepto del Marcador
-                        </th>
+
+                        <th><input type="text" placeholder="Buscar en URL del Marcador"></th>
+                        <th><input type="text" placeholder="Buscar en Concepto del Marcador"></th>
                         <th>href del Marcador</th>
                         <th>uso del Marcador</th>
                         <th>Editar</th>
