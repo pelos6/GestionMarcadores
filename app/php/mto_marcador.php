@@ -62,6 +62,10 @@ switch ($accion) {
             array(
                 'db' => 'conceptoMarcador',
                 'dt' => 'conceptoMarcador'
+            ),
+            array(
+                'db' => 'usoMarcador',
+                'dt' => 'usoMarcador'
             )
         );        
         // SQL server connection information
@@ -81,6 +85,23 @@ switch ($accion) {
        /* $mensaje = "Carga correcta de la tabla";
         $estado  = 0;*/
         
+        break;
+    case usoMarcador:
+         $idMarcador = filter_input(INPUT_POST, "idMarcador", FILTER_SANITIZE_STRING, FILTER_FLAG_ENCODE_AMP);
+        $query = "UPDATE marcadoresImportados SET usoMarcador = usoMarcador + 1   WHERE idMarcador = '" . $idMarcador . "' ";
+        error_log("DEBUG: la query de update usoMarcador " . $query);
+         /*En función del resultado correcto o no, mostraremos el mensaje que corresponda*/
+        $query_res = mysql_query($query);
+        
+        // Comprobar el resultado
+        if (!$query_res) {
+            $mensaje = 'Error en la consulta: ' . mysql_error() . "\n";
+            error_log("El ERROR de la consulta " . $mensaje);
+            $estado = mysql_errno();
+        } else {
+            $mensaje = "Actualización correcta de uso de marcador ";
+            $estado  = 0;
+        }
         break;
     // Creando el Marcador y las clinicas asociadas
     case 'crearMarcador':

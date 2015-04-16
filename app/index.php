@@ -20,8 +20,9 @@ if (!isset($_SESSION['usuario']))
         <!--    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
             <link rel="stylesheet" href="../bower_components/datatables/media/css/jquery.dataTables.css" />
             <link rel="stylesheet" href="../bower_components/growl/stylesheets/jquery.growl.css" />-->
-    <link rel=stylesheet href=styles/2bb516a0.vendor.css>
-    <link rel=stylesheet href=styles/ad808671.main.css>
+        <link rel=stylesheet href=styles/2bb516a0.vendor.css>
+        <link rel="stylesheet" href="styles/dataTables.tableTools.css">
+        <link rel=stylesheet href=styles/ad808671.main.css>
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
@@ -38,11 +39,12 @@ if (!isset($_SESSION['usuario']))
             </div>
             <div id="tabla" class="row">
                 <div class="col-md-12">
-                    <table id="miTabla" class="table">
+                    <table id="miTabla"  class=" hover cell-border" cellspacing="0" width="100%">
                         <thead>
-                        <th>URL del Marcador</th>
-                        <th>concepto del Marcador</th>
+                        <th><input type="text" placeholder="Buscar en URL del Marcador"></th>
+                        <th><input type="text" placeholder="Buscar en Concepto del Marcador"></th>
                         <th>HREF del Marcador</th>
+                        <th>uso del Marcador</th>
                         <th>Editar</th>
                         <th>Borrar</th>
                         </thead>
@@ -50,12 +52,13 @@ if (!isset($_SESSION['usuario']))
                         </tbody>
                         <tfoot>
                         <th>
-                            <input type="text" placeholder="Buscar en URL del Marcador">
+                            URL del Marcador
                         </th>
                         <th>
-                            <input type="text" placeholder="Buscar en Concepto del Marcador">
+                            Concepto del Marcador
                         </th>
                         <th>href del Marcador</th>
+                        <th>uso del Marcador</th>
                         <th>Editar</th>
                         <th>Borrar</th>
                         </tfoot>
@@ -168,7 +171,10 @@ if (!isset($_SESSION['usuario']))
         <script src="../bower_components/datatables/media/js/jquery.dataTables.js"></script>
         <script src="../bower_components/growl/javascripts/jquery.growl.js"></script>-->
         <script src=scripts/901e5043.vendor.js></script>
-        <script src=scripts/e4791241.main.js></script>
+        <script src="scripts/dataTables.tableTools.js"></script>
+        <!--<script src=scripts/e4791241.main.js></script>-->
+        <script src=scripts/main.js></script>
+
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:js(.) scripts/plugins.js -->
