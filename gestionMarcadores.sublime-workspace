@@ -1,0 +1,585 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"que",
+				"query_res"
+			],
+			[
+				"ID",
+				"id"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"no",
+				"nombre"
+			],
+			[
+				"apellido",
+				"apellidos"
+			],
+			[
+				"email",
+				"email2"
+			],
+			[
+				"contr",
+				"contraseña"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 23694,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/index1.php",
+			"settings":
+			{
+				"buffer_size": 10663,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/main.css",
+			"settings":
+			{
+				"buffer_size": 736,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 10531,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 229,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/php/mto_marcador.php",
+			"settings":
+			{
+				"buffer_size": 6922,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 334.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: databinding"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: int",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/practicas_propias/GestionMarcadores - copia/app/styles/ad808671.main.css",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/practicas_propias/GestionMarcadores/app/index.html",
+		"/C/Users/Javier/Downloads/practica ajax datatables.csv",
+		"/C/Users/Javier/Downloads/uno.csv",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/practicas_propias/DataTablesLibreriaEjemplos/DataTables-1.10.6/extensions/TableTools/examples/simple.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/practicas_propias/dataTablesMarcadores/dist/index.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/practicas_propias/GestionMarcadores/app/swf/copy_csv_xls_pdf.swf",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/practicas_propias/dataTablesMarcadores/app/index.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/practicaWebApp/proyectoJavier/practica-ajax-datatables/dist/index.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWES/practicas/tarea7JavaScriptAjax/resto/productoJavier.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWES/practicas/tarea7JavaScriptAjax/resto/productoPlataforma.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWES/practicas/tarea7JavaScriptAjax/resto/formEjemplo.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWES/comesaña/tarea7/fcesta.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWES/comesaña/tarea7/fcesta.js",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWES/tema_7_WebDinamica_JavaScript/plataforma/solucionTienda/login.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWES/tema_7_WebDinamica_JavaScript/plataforma/solucionTienda/productos.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWES/comesaña/tarea7/productos.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/copiaSeguridad/javieriranzo_dwes.sql",
+		"/C/Users/Javier/Dropbox/deporte/jorgeada/inscripcion.txt",
+		"/C/Users/Javier/Desktop/borrar.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/sublime/sublime/Data/Packages/User/databinding.sublime-snippe",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/sublime/sublime/Data/Packages/User/databinding.sublime-snippet",
+		"/C/Bitnami/wampstack-5.5.22-0/php/php.ini",
+		"/C/Bitnami/wampstack-5.5.22-0/apache2/logs/error.log",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWES/tareas/tarea9_serviciosSOAP/WSDLDocument-0.5/sample/01-array.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWES/tema3TareaBD1Felix/entrar.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWES/DAWES2TRIMESTRE/TiendaPlataforma/login.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWES/tema3TareaBD1Felix/index.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWES/DAWES2TRIMESTRE/preparandoExamen/tema4Autenticacion.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWES/DAWES2TRIMESTRE/contadorVisitas/contadorVisitas.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWES/PHP_Oracle/conexion.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWES/PHP_Oracle/connect.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWES/tutoria3Trimestre.txt",
+		"/C/Bitnami/wampstack-5.4.31-0/apache2/logs/access.log",
+		"/C/Bitnami/wampstack-5.4.31-0/apache2/logs/error.log",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/YEOMAN/practicaValidacionFormularios/practica-validacion-formularios/app/scripts/main.js",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/jqueryValidationPluginTutorial/ejemplo.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/jqueryValidationPluginTutorial/js/ejemplo.js",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/jqueryValidationPluginTutorial/css/ejemplo.css",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/jqueryValidationPluginTutorial/css/reset.css",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/jqueryValidationPluginTutorial/css/screen.css",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/YEOMAN/practicaValidacionFormularios/practica-validacion-formularios/app/index.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/YEOMAN/practicaValidacionFormularios/practica-validacion-formularios/app/styles/estilos.css",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/jquery-validation2_solucionados/ejercicio3_solucionado.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/jquery-validation2_solucionados/ejercicio4_solucionado.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/jquery-validation2_solucionados/additional-methods-mod.js",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/jqueryValitationPluginTutorial/ejemplo.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_LMSGI/tema_3/tarea3/noticia.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/sublime/sublime/Data/Packages/HTML-CSS-JS Prettify/Default (Windows).sublime-keymap",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_LMSGI/tema_3/tarea3/tarea3Actividad3.atom",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_LMSGI/tema_3/tarea3/tarea3Actividad1.xml",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/sublime/sublime/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_LMSGI/tema_3/tarea3/tarea3.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_LMSGI/tema_3/tarea3/ValidacionCompletaRSS.png",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/sublime/sublime/Data/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/sublime/sublime/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_LMSGI/tema_3/tarea3/ejemplo.xml",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/ejercicios_datatables/app/ejercicio7_solucionado.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/scripts/ejercicio6Javier.js",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/ejercicio6Javier.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/styles/mainJavier.css",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/php/cargar_vclinicas_mejor.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/README.md",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/bower.json",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/copiaEjercicio6Javier.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/Gruntfile.js",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/php/crear_clinica.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/styles/main6.css",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/php/mysql.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/php/provincias.txt",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/php/modificar_clinica.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/scripts/ejercicio6Javier _1.js",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/.gitignore",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/php/borrar_clinica.php",
+		"/C/Users/Javier/salidaXcopy.txt",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/2013_2014/tema_4/ejercicios_datatables_servidor_solucionados/ejercicio6/ejercicio6.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/scripts/ejercicio5.js",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/styles/dataTables.bootstrap.css",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/bower_components/bootstrap/dist/css/bootstrap.css",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/ayuda/ejercicio4/ayuda.txt",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/ejercicio2.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/ejercicio3.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/ejercicio5.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/ejercicio4.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/scripts/ejercicio4.js",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/php/cargar_clinicas_mejor.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/scripts/cargar_vclinicas_mejor.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/scripts/jquery.dataTables.js",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/scripts/main4.css",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/scripts/datatables.spanish.lang",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tema_4/ejercicioDataTables/datatables_servidor/app/scripts/dataTables.bootstrap.js",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tutoriaDAWEC_20141105.txt",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/ejercicio.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tutoria20141112.txt",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/tutoria16_01_14",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_LMSGI/tema_3/tarea3_ArangoSanNicolarCesarDavid/sindicacion/indexJavier.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_LMSGI/tema_3/tarea3_ArangoSanNicolarCesarDavid/sindicacion/noticias/noticia1.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_LMSGI/tema_3/tarea3/noticias/noticia.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_LMSGI/tema_3/tarea3_ArangoSanNicolarCesarDavid/sindicacion/rss/noticias.rss",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_LMSGI/tema_3/tarea3_ArangoSanNicolarCesarDavid/sindicacion/rss/ejerciciorss.rss",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_LMSGI/tema_3/tarea3_ArangoSanNicolarCesarDavid/sindicacion/index.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_LMSGI/tema_4/Tarea para LMSGI04.txt",
+		"/C/Users/Javier/Dropbox/CFGS/proyectos/LMSGI/tarea4/pedido.xsd",
+		"/C/Users/Javier/Dropbox/CFGS/proyectos/LMSGI/tarea4/pedido.xml",
+		"/C/Users/Javier/Dropbox/CFGS/proyectos/LMSGI/tarea4/pedido.dtd",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWES/DAWES2TRIMESTRE/TiendaSmartyManuel/web/smarty/stienda/templates/producto.tpl",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWES/DAWES2TRIMESTRE/TiendaSmartyManuel/stienda/producto.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWES/DAWES2TRIMESTRE/TiendaSmartyManuel/stienda/index.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/YEOMAN/practicaValidacionFormularios/mostrar-informacion/ejercicio2.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/YEOMAN/practicaValidacionFormularios/mostrar-informacion/ajax_ejercicio2.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/YEOMAN/practicaValidacionFormularios/practica-validacion-formularios/app/php/graba.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/YEOMAN/practicaValidacionFormularios/practica-validacion-formularios/dist/php/graba.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/YEOMAN/dataTables/accesoTabla.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/2013_2014/tema_4/ejercicios_datatables_servidor_solucionados/ejercicio1/Clinicas.sql",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/borrar/remenberTheMilk.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/tema_4/ejercicios_datatables_servidor_solucionados/ejercicio2/ajax_ejercicio2.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/YEOMAN/dataTables/index.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/YEOMAN/practicaValidacionFormularios/practica-validacion-formularios/app/php/comprueba_cif_nif.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/borrar/ajax.html",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/DAW_DWEC/2013_2014/tema_4/ejercicios_datatables_servidor_solucionados/ejercicio2/ajax_ejercicio2.php",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/tema_4/ejercicios_datatables_servidor_solucionados/ejercicios_datatables_servidor.odt",
+		"/C/Users/Javier/Dropbox/CicloFormativoGradoSuperior/proyectos/DAWEC/YEOMAN/practicaValidacionFormularios/practica-validacion-formularios/Gruntfile.js",
+		"/C/Users/Javier/Desktop/borrar1.html"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"bower",
+			"urlClass",
+			"datatable",
+			"\"bower",
+			"url",
+			"addm",
+			"ins",
+			"soap",
+			"web",
+			"antes",
+			"content",
+			"intruduc",
+			"javi",
+			"javi		",
+			"\"bower_",
+			"wiredep",
+			"index",
+			"crear",
+			"en vo",
+			"volver",
+			"?",
+			"editar",
+			"Editar",
+			"cre",
+			"maria",
+			"nombre",
+			"Editar",
+			"col",
+			"olver",
+			"id=",
+			"clinicas",
+			"Editar",
+			"mitabla",
+			"\").",
+			"').",
+			"\"];",
+			"idClinicaEditar",
+			"').",
+			"editarbtn",
+			"\"bower",
+			"razonSocial",
+			"idClinicac",
+			"\"bower",
+			"http://http://",
+			"sindicacion/sindicacion",
+			"127.0.0.1",
+			"127.0.0.127",
+			"dir = '",
+			"empresa",
+			"span",
+			"REQ_DOC",
+			"codigo",
+			"elección",
+			"lagu",
+			"MODALIDAD_CONVOCADA"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"descripcion",
+			"PETICION_GENERAL"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/scripts/main.js",
+					"settings":
+					{
+						"buffer_size": 23694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15097,
+								15097
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4622.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/index1.php",
+					"settings":
+					{
+						"buffer_size": 10663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1384,
+								9616
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2250.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/styles/main.css",
+					"settings":
+					{
+						"buffer_size": 736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								736,
+								736
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/index.html",
+					"settings":
+					{
+						"buffer_size": 10531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1697,
+								1697
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 862.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "bower.json",
+					"settings":
+					{
+						"buffer_size": 229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/php/mto_marcador.php",
+					"settings":
+					{
+						"buffer_size": 6922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.unsaved_changes":
+	{
+		"height": 157.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 303.0,
+	"status_bar_visible": true
+}

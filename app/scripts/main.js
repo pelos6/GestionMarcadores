@@ -1,9 +1,9 @@
 console.log('\'Allo \'Allo! marcadores!!!');
 'use strict';
 
-$(document).ready(function () {
+$(document).ready(function() {
     // la validación de la url mas localhost y file
-    jQuery.validator.addMethod("urlLocalhost", function (value, element) {
+    jQuery.validator.addMethod("urlLocalhost", function(value, element) {
         console.log("en el metodo " + value);
         if (value.indexOf('localhost') != -1) {
             return true;
@@ -27,7 +27,7 @@ $(document).ready(function () {
                 minlength: 10,
                 maxlength: 400,
                 urlLocalhost: true
-                        //  url: true -- pero no admite localhost
+                    //  url: true -- pero no admite localhost
             }
         },
         // unos cuantos mensajes personalizados
@@ -43,7 +43,7 @@ $(document).ready(function () {
                 maxlength: "La URL del marcador debe tener como mucho {0} digitos"
             }
         },
-        submitHandler: function (form) {
+        submitHandler: function(form) {
             console.log("en el boton  submitHandler botonConfirmarCrearMarcador");
             //  mievento.preventDefault();
             // no es necesario el idmarcador pues lo genera el programa con un secuencial
@@ -63,13 +63,13 @@ $(document).ready(function () {
                     urlMarcador: urlMarcadorCrear,
                     conceptoMarcador: conceptoMarcadorCrear
                 },
-                error: function (xhr, status, error) {
+                error: function(xhr, status, error) {
                     //el error se muestra con growl
                     $.growl.error({
                         message: "Error al crear un marcador!" + error
                     });
                 },
-                success: function (data) {
+                success: function(data) {
                     //obtenemos el mensaje del servidor, es un array!!!
                     //var mensaje = (data["mensaje"]) //o data[0], en función del tipo de array!!
                     var $mitabla = $("#miTabla").dataTable({
@@ -103,7 +103,7 @@ $(document).ready(function () {
                 minlength: 10,
                 maxlength: 400,
                 urlLocalhost: true
-                        //  url: true -- pero no admite localhost
+                    //  url: true -- pero no admite localhost
             },
             conceptoMarcadorEditar: {
                 required: true,
@@ -124,7 +124,7 @@ $(document).ready(function () {
                 maxlength: "La URL del marcador debe tener como mucho {0} digitos"
             }
         },
-        submitHandler: function (form) {
+        submitHandler: function(form) {
             console.log("en el boton  submitHandler botonConfirmarEditarmarcador");
             //  mievento.preventDefault();
             var idMarcador = $("#idMarcadorEditar").val();
@@ -143,13 +143,13 @@ $(document).ready(function () {
                     urlMarcador: urlMarcador,
                     conceptoMarcador: conceptoMarcador
                 },
-                error: function (xhr, status, error) {
+                error: function(xhr, status, error) {
                     //el error se muestra con growl
                     $.growl.error({
                         message: "Error al editar un marcador!" + error
                     });
                 },
-                success: function (data) {
+                success: function(data) {
                     //obtenemos el mensaje del servidor, es un array!!!
                     //var mensaje = (data["mensaje"]) //o data[0], en función del tipo de array!!
                     var $mitabla = $("#miTabla").dataTable({
@@ -176,10 +176,10 @@ $(document).ready(function () {
     });
 
     /* Limpiamos los formularios de crear y editar */
-    $('#modal-crear').on('hidden.bs.modal', function () {
+    $('#modal-crear').on('hidden.bs.modal', function() {
         validatorCrear.resetForm();
     })
-    $('#modal-editar').on('hidden.bs.modal', function () {
+    $('#modal-editar').on('hidden.bs.modal', function() {
         validatorEditar.resetForm();
     });
     /* mas limpio con el código anterior ...
@@ -196,18 +196,21 @@ $(document).ready(function () {
      */
     // cargando la tabla con dataTable
     var miTabla = $('#miTabla').DataTable({
-        "sDom": 'T<"clear">OSfrtip',
+        //"sDom": '<"top"i>rt<"bottom"flp><"clear">',
+        // R de reorder permite reordenar las filas pulsando en las columnas
+        "sDom": 'T<"clear">OSRfrtip',
+/*        "colVis": {
+            "buttonText": "Muestra / oculta columnas"
+        },*/
         "oTableTools": {
             "sRowSelect": "multi",
             "sSwfPath": "swf/copy_csv_xls_pdf.swf",
-            "aButtons": [
-                {
+            "aButtons": [{
                     "sExtends": "csv",
                     "sButtonText": "Copiar en CSV",
                     "sInfo": "Todos los registros fueron copiados al portapapeles"
 
-                },
-                {
+                }, {
                     "sExtends": "pdf",
                     "sButtonText": "Copiar en PDF",
                     "sTitle": "Mis marcadores",
@@ -217,16 +220,13 @@ $(document).ready(function () {
                     "sPdfMessage": "Los marcadores seleccionados.",
                     "sPdfOrientation": "landscape",
                     "mColumns": [0, 1],
-                },
-                {
+                }, {
                     "sExtends": "copy",
                     "sButtonText": "Copiar",
-                },
-                {
+                }, {
                     "sExtends": "xls",
                     "sButtonText": "Copiar a Excel",
-                },
-                {
+                }, {
                     "sExtends": "print",
                     "sButtonText": "Imprimir",
                     "sMessage": "Generado usando JQuery dataTables tableTools",
@@ -237,7 +237,9 @@ $(document).ready(function () {
             ]
 
         },
-        "order": [[3, "desc"]],
+        "order": [
+            [3, "desc"]
+        ],
         'processing': true,
         'serverSide': true,
         //'ajax': 'php/cargar_marcadores_clinicas.php',
@@ -278,68 +280,80 @@ $(document).ready(function () {
             }
         },
         'columns': [{
-                'data': 'hrefMarcador'
-            }, {
-                'data': 'conceptoMarcador'
-            }, {
-                'data': 'urlMarcador'
-            }, {
-                'data': 'usoMarcador'
-            }, {
-                'data': 'idMarcador',
-                /*añadimos las clases editarbtn y borrarbtn para procesar los eventos click de los botones. No lo hacemos mediante id ya que habrá más de un
-                 botón de edición o borrado*/
-                'render': function (data) {
-                    return '<a href="#modal-editar" class="btn btn-primary editarbtn" data-toggle="modal"  data-backdrop="static" >Editar</a>';
-                }
-            }, {
-                'data': 'idMarcador',
-                /*añadimos las clases editarbtn y borrarbtn para procesar los eventos click de los botones. No lo hacemos mediante id ya que habrá más de un
-                 botón de edición o borrado*/
-                'render': function (data) {
-                    return '<a href="#modal-borrar" class="btn btn-warning borrarbtn" data-toggle="modal"  data-backdrop="static" >Borrar</a>';
-                    // return '<button id=' + data + ' class="btn btn-warning borrarbtn " >Borrar</button>';
-                }
-            }],
-        "columnDefs": [{
-                "targets": [0],
-                className: "urlClass"
-            }, {"render": function (data, type, row) {
-                    return data + ' (' + row["usoMarcador"] + ')';
-                },
-                "targets": 1}, {
-                "targets": [2],
-                "visible": false,
-                "searchable": false
-            }, {
-                "targets": [3],
-                "visible": false,
-                "searchable": false
-            }, {
-                "targets": [4],
-                "searchable": false,
-                "orderable": false
-            }, {
-                "targets": [5],
-                "searchable": false,
-                "orderable": false
+            'data': 'hrefMarcador'
+        }, {
+            'data': 'conceptoMarcador'
+        }, {
+            'data': 'urlMarcador'
+        }, {
+            'data': 'usoMarcador'
+        }, {
+            'data': 'idMarcador',
+            /*añadimos las clases editarbtn y borrarbtn para procesar los eventos click de los botones. No lo hacemos mediante id ya que habrá más de un
+             botón de edición o borrado*/
+            'render': function(data) {
+                return '<a href="#modal-editar" class="btn btn-primary editarbtn" data-toggle="modal"  data-backdrop="static" >Editar</a>';
             }
-        ]
+        }, {
+            'data': 'idMarcador',
+            /*añadimos las clases editarbtn y borrarbtn para procesar los eventos click de los botones. No lo hacemos mediante id ya que habrá más de un
+             botón de edición o borrado*/
+            'render': function(data) {
+                return '<a href="#modal-borrar" class="btn btn-warning borrarbtn" data-toggle="modal"  data-backdrop="static" >Borrar</a>';
+                // return '<button id=' + data + ' class="btn btn-warning borrarbtn " >Borrar</button>';
+            }
+        }],
+        "columnDefs": [{
+            "targets": [0],
+            className: "urlClass"
+        }, {
+            "render": function(data, type, row) {
+                return data + ' (' + row["usoMarcador"] + ')';
+            },
+            "targets": 1
+        }, {
+            "targets": [2],
+            "visible": false,
+            "searchable": false
+        }, {
+            "targets": [3],
+            "visible": false,
+            "searchable": false
+        }, {
+            "targets": [4],
+            "searchable": false,
+            "orderable": false
+        }, {
+            "targets": [5],
+            "searchable": false,
+            "orderable": false
+        }]
     });
+    var colvis = new $.fn.dataTable.ColVis(miTabla);
+     var colvis = new $.fn.dataTable.ColVis( miTabla, {
+        buttonText: 'Muesta/Oculta columnas',
+        activate: "mouseover",
+          iOverlayFade: 1000
+    } );
+    $(colvis.button()).insertBefore('div.info');
+    // $(colvis.button()).insertBefore('div.DTTT_container');
+    /*   var tt = new $.fn.dataTable.TableTools( miTabla );
+      $( tt.fnContainer() ).insertAfter('div.info');*/
     // Apply the search
-    miTabla.columns().every(function () {
+    console.log(miTabla.columns().every);
+    miTabla.columns().every(function() {
         var that = this;
-        $('input', this.footer()).on('keyup change', function () {
+        $('input', this.footer()).on('keyup change', function() {
             that
-                    .search(this.value)
-                    .draw();
+                .search(this.value)
+                .draw();
         });
     });
 
     // --------CREAR marcador ------
     // Lo que pasa al usar el botón crear marcador.
     // Este botón esta desde el principio de la carga de la página.
-    $("#boton-crear-marcador").click(function (e) {
+    $("#boton-crear-marcador").click(function(e) {
         console.log('en el boton-crear-marcador');
         // valores a vacio para evitar recarga con valores anteriores
         $('#urlMarcadorCrear').val('');
@@ -347,7 +361,7 @@ $(document).ready(function () {
 
     // --------CREAR marcador - GUARDAR  ------
     // lo que pasa al usar el boton Guardar del formulario crear
-    $("#botonGuardarCrearMarcador").click(function (mievento) {
+    $("#botonGuardarCrearMarcador").click(function(mievento) {
         /** ya esta controlado en el validate **/
         // la validación del formulario para crear marcador
         console.log('en el botonGuardarCrearMarcador');
@@ -355,10 +369,11 @@ $(document).ready(function () {
         /***/
 
     });
-    $('#tabla').on('click', '.urlClass', function () {
+    $('#tabla').on('click', '.refClase', function() {
         var nRow = $(this).parents('tr')[0];
         console.log('en el click ' + nRow);
         var aData = miTabla.row(nRow).data();
+        console.log('en el click ' + aData);
         var idMarcador = miTabla.row(nRow).data().idMarcador;
         console.log('en el click ' + idMarcador);
         $.ajax({
@@ -372,7 +387,7 @@ $(document).ready(function () {
                 accion: 'usoMarcador',
                 idMarcador: idMarcador
             },
-            error: function (xhr, status, error) {
+            error: function(xhr, status, error) {
                 // mostraríamos alguna ventana de alerta con el error
                 // por ejemplo la base de datos caida
                 $.growl.error({
@@ -381,7 +396,7 @@ $(document).ready(function () {
                     message: "Error al contar uso de un marcador!" + error
                 });
             },
-            success: function (data) {
+            success: function(data) {
                 //obtenemos el mensaje del servidor, es un array!!!
                 //var mensaje = (data["mensaje"]) //o data[0], en función del tipo de array!!
                 //actualizamos datatables:
@@ -398,7 +413,8 @@ $(document).ready(function () {
                      size: "large",
                      style: "warning",
                      message: "El marcador ha sido contabilizado con exito"
-                     })*/;
+                     })*/
+                    ;
                 } else {
                     $.growl.error({
                         // colocando el mensaje top centre ...
@@ -407,7 +423,7 @@ $(document).ready(function () {
                     });
                 }
             },
-            complete: function (data) {
+            complete: function(data) {
                 //si queremos hacer algo al terminar la petición ajax
             }
         });
@@ -418,7 +434,7 @@ $(document).ready(function () {
     // lo que pasa al usar el botón editar para cada marcador 
     // como los botones se crean con datatables no estan al inicio. 
     // por eso se referencian a traves de #tabla y con on
-    $('#tabla').on('click', '.editarbtn', function () {
+    $('#tabla').on('click', '.editarbtn', function() {
         /* marcador = $(this).attr('nombremarcador');
          console.log("en editar marcador " + marcador);*/
         var nRow = $(this).parents('tr')[0];
@@ -432,7 +448,7 @@ $(document).ready(function () {
     });
     // --------EDITAR marcador - GUARDAR  ------
     // lo que pasa al usar el boton Guardar del formulario editar
-    $("#botonGuardarEditarMarcador").click(function (mievento) {
+    $("#botonGuardarEditarMarcador").click(function(mievento) {
         console.log("en el boton botonGuardarEditarMarcador " + validatorCrear);
     });
     /*    $('#tabla tbody').on('click', 'tr', function() {
@@ -440,7 +456,7 @@ $(document).ready(function () {
      });*/
     // --------BORRAR marcador ------
     // lo que pasa al usar el botón borrar para cada marcador 
-    $('#tabla').on('click', '.borrarbtn', function () {
+    $('#tabla').on('click', '.borrarbtn', function() {
         /*     marcador = $(this).attr('idmarcador');
          console.log("en borrar marcador " + marcador);*/
         var nRow = $(this).parents('tr')[0];
@@ -453,7 +469,7 @@ $(document).ready(function () {
     });
     // --------BORRAR marcador - BORRAR  ------
     // lo que pasa al usar el boton Borrar del formulario borrar
-    $("#botonBorrarBorrarMarcador").click(function (mievento) {
+    $("#botonBorrarBorrarMarcador").click(function(mievento) {
         console.log("en el boton botonBorrarBorrarmarcador");
 
         var idMarcador = $("#idMarcadorBorrar").val();
@@ -469,7 +485,7 @@ $(document).ready(function () {
                 accion: 'borrarMarcador',
                 idMarcador: idMarcador
             },
-            error: function (xhr, status, error) {
+            error: function(xhr, status, error) {
                 // mostraríamos alguna ventana de alerta con el error
                 // por ejemplo la base de datos caida
                 $.growl.error({
@@ -478,7 +494,7 @@ $(document).ready(function () {
                     message: "Error al borrar un marcador!" + error
                 });
             },
-            success: function (data) {
+            success: function(data) {
                 //obtenemos el mensaje del servidor, es un array!!!
                 //var mensaje = (data["mensaje"]) //o data[0], en función del tipo de array!!
                 //actualizamos datatables:
@@ -504,7 +520,7 @@ $(document).ready(function () {
                     });
                 }
             },
-            complete: function (data) {
+            complete: function(data) {
                 //si queremos hacer algo al terminar la petición ajax
             }
         });
